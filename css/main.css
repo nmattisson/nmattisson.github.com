@@ -114,7 +114,7 @@ img {
 	overflow:	auto;	
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	#sidebar{
 		clear: both;
 		position:	static;
