@@ -105,9 +105,9 @@ img {
 #content {
 	text-align: left;
 	position:	absolute;
-	top:	0;
-	bottom: 0;
-	right:	0;
+	top:	0px;
+	bottom: 0px;
+	right:	0px;
 	left:	220px;
 	padding:10px;
 	height: 100%;
@@ -119,11 +119,11 @@ img {
 		text-align: center;
 		clear: both;
 		position:	static;
-		top:	0;
-		bottom: 0;
-		right:	0;
-		left:	0;
-		padding:0;
+		top:	0px;
+		bottom: 0px;
+		right:	0px;
+		left:	0px;
+		padding:0px;
 		padding-top:10px;
 		height: 180px;
 		width: 100%;
@@ -135,13 +135,13 @@ img {
 		clear: both;
 		position:	static;
 		top:	180px;
-		bottom: 0;
-		right:	0;
-		left:	0;
-		padding:0;
+		bottom: 0px;
+		right:	0px;
+		left:	0px;
+		padding:0px;
 		height: auto;
 		width: 100%;
-		overflow:	scroll;
+		overflow:	hidden;
 	}
 	
 	#sidebar .footer {
