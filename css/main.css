@@ -123,6 +123,7 @@ img {
 		bottom: 0;
 		right:	0;
 		left:	0;
+		padding:0;
 		padding-top:10px;
 		height: 180px;
 		width: 100%;
@@ -137,8 +138,9 @@ img {
 		bottom: 0;
 		right:	0;
 		left:	0;
+		padding:0;
 		height: auto;
-		width: 100%;
+		width: auto;
 		overflow:	scroll;
 	}
 	
