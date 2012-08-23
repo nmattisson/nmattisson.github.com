@@ -1,0 +1,176 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background:white;
+	color:rgb(73,83,90);
+}
+
+h2 {
+	font-size:28;
+	font-weight: 100;
+}
+
+h1 {
+	font-size:36;
+	font-weight: 300;
+	margin-bottom:15px;
+}
+
+a {
+	text-decoration:none;
+	color:rgb(130,146,150);
+}
+
+table, tbody, th, td, tr
+{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: top;
+}
+
+.bio {
+	font-size:11;
+	color:rgb(130,146,150);
+	margin:10px;
+	margin-bottom:15px;
+}
+
+.footer {
+	font-size:11;
+	color:rgb(130,146,150);
+	bottom:70px;
+	position:absolute;
+	
+}
+.ss-icon {
+	font-size:24;
+	letter-spacing:5px;
+	color:rgb(73,83,90);
+}
+
+#twitter {
+	max-width: 612px;
+}
+
+div.tweet_date {
+	width:80px;
+	margin-right:20px;
+	display:inline-block;
+	text-align: right;
+}
+
+div.tweet_text {
+	max-width: 512px;
+	margin-bottom: 15px;
+}
+
+#instagram {
+	max-width: 612px;
+}
+
+div.instagram_entry {
+	margin-bottom: 15px;
+}
+
+div.instagram_date {
+	display:inline-block;
+	float:left;
+	margin-right: 10px;
+}
+
+div.instagram_image {
+	display:inline-block;
+	max-width:612px;
+	margin-bottom: 10px;
+}
+
+div.instagram_caption {
+}
+
+img {
+     max-width: 100%;
+}
+
+#sidebar {
+	text-align: center;
+	position:	fixed;
+	top:	0;
+	bottom: 0;
+	right:	0;
+	left:	0;
+	padding:10px;
+	padding-top:50px;
+	width:	200px;
+	height: 100%;
+	overflow: hidden; 
+}
+
+#sidebar ul {
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+
+#sidebar li {
+	text-align:left;
+	display:inline-block;
+	width: 120px;
+	margin: 5px;
+	padding:8px;
+	border: 3px solid white;
+	border-radius: 25px;
+}
+
+#sidebar #footer {
+	padding:0px;
+	text-align:center;
+	position:absolute;
+	clear:both;
+	width:80%;
+	bottom:10px;
+}
+
+#content {
+	text-align: left;
+	position:	absolute;
+	top:	0;
+	bottom: 0;
+	right:	0;
+	left:	220px;
+	padding:10px;
+	height: 100%;
+	overflow:	auto;	
+}
+
+@media screen and (max-width: 640px) {
+	#sidebar{
+		clear: both;
+		position:	static;
+		top:	0;
+		bottom: 0;
+		right:	0;
+		left:	0;
+		padding-top:10px;
+		height: 180px;
+		width: auto;
+		overflow:	hidden;
+	}
+	
+	#sidebar .footer {
+		display:none;
+	}
+
+	#content{
+		text-align: left;
+		clear: both;		
+		position:	static;
+		top:	180px;
+		bottom: 0;
+		right:	0;
+		left:	0;
+		height: auto;
+		width: auto;
+		overflow:	auto;
+	}
+}
