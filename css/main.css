@@ -116,6 +116,7 @@ img {
 
 @media only screen and (max-width: 1024px) {
 	#sidebar{
+		text-align: center;
 		clear: both;
 		position:	static;
 		top:	0;
@@ -124,24 +125,24 @@ img {
 		left:	0;
 		padding-top:10px;
 		height: 180px;
-		width: auto;
+		width: 100%;
 		overflow:	hidden;
-	}
-	
-	#sidebar .footer {
-		display:none;
 	}
 
 	#content{
 		text-align: left;
-		clear: both;		
+		clear: both;
 		position:	static;
 		top:	180px;
 		bottom: 0;
 		right:	0;
 		left:	0;
 		height: auto;
-		width: auto;
-		overflow:	auto;
+		width: 100%;
+		overflow:	scroll;
+	}
+	
+	#sidebar .footer {
+		display:none;
 	}
 }
