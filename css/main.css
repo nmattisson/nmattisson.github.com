@@ -140,7 +140,7 @@ img {
 		left:	0;
 		padding:0;
 		height: auto;
-		width: auto;
+		width: 100%;
 		overflow:	scroll;
 	}
 	
