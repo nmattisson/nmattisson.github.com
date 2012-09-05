@@ -54,8 +54,8 @@ table, tbody, th, td, tr
 }
 
 div.tweet_date {
-	width:80px;
-	margin-right:10px;
+	width:95px;
+	margin-right:15px;
 	display:inline-block;
 	text-align: right;
 }
