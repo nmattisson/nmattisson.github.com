@@ -54,14 +54,14 @@ table, tbody, th, td, tr
 }
 
 div.tweet_date {
-	width:90px;
+	width:100px;
 	margin-right:10px;
 	display:inline-block;
 	text-align: right;
 }
 
 div.tweet_text {
-	max-width: 512px;
+	max-width: 502px;
 	margin-bottom: 15px;
 }
 
