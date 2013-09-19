@@ -5,15 +5,15 @@ body {
 	color:rgb(73,83,90);
 }
 
-h2 {
-	font-size:28;
-	font-weight: 100;
-}
-
 h1 {
 	font-size:36;
 	font-weight: 300;
 	margin-bottom:15px;
+}
+
+h2 {
+	font-size:28;
+	font-weight: 100;
 }
 
 a {
@@ -29,40 +29,24 @@ table, tbody, th, td, tr
 	vertical-align: top;
 }
 
-.bio {
+#bio {
 	font-size:11;
 	color:rgb(130,146,150);
+	text-align: center;
 	margin:10px;
 	margin-bottom:15px;
 }
 
-.footer {
+#footer {
 	font-size:11;
 	color:rgb(130,146,150);
-	bottom:70px;
-	position:absolute;
-	
-}
-.ss-icon {
-	font-size:24;
-	letter-spacing:5px;
-	color:rgb(73,83,90);
+	text-align: center;
+	margin:10px;
+	margin-bottom:15px;
 }
 
-#twitter #instagram  {
-	max-width: 612px;
-}
-
-div.tweet_date {
-	width:100px;
-	margin-right:10px;
-	display:inline-block;
-	text-align: right;
-}
-
-div.tweet_text {
-	max-width: 502px;
-	margin-bottom: 15px;
+#instagram  {
+	text-align: center;
 }
 
 div.instagram_entry {
@@ -82,57 +66,20 @@ div.instagram_image {
 }
 
 div.instagram_caption {
+	text-align: left;
 }
 
 img {
      max-width: 100%;
 }
 
-#sidebar {
-	text-align: center;
-	position:	fixed;
-	top:	0;
-	bottom: 0;
-	right:	0;
-	left:	0;
-	padding:10px;
-	margin:0px;
-	padding-top:50px;
-	width:	200px;
-	height: 100%;
-	overflow: hidden; 
-}
-
-#content {
-	text-align: left;
-	position:	absolute;
-	top:	0px;
-	bottom: 0px;
-	right:	0px;
-	left:	220px;
-	padding:10px;
-	margin:0px;
-	height: 100%;
-	overflow:	auto;	
+.ss-icon {
+	font-size:24;
+	letter-spacing:5px;
+	color:rgb(73,83,90);
 }
 
 @media only screen and (max-width: 1024px) {
-	#sidebar{
-		text-align: center;
-		clear: both;
-		position:	static;
-		top:	0px;
-		bottom: 0px;
-		right:	0px;
-		left:	0px;
-		padding:0px;
-		margin: 0px;
-		padding-top:10px;
-		height: 180px;
-		width: 100%;
-		overflow:	hidden;
-	}
-
 	#content{
 		text-align: left;
 		clear: both;
@@ -145,10 +92,6 @@ img {
 		margin: 0px;
 		height: auto;
 		width: 100%;
-		overflow:	hidden;
-	}
-	
-	#sidebar .footer {
-		display:none;
+		overflow: hidden;
 	}
 }

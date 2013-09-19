@@ -11,7 +11,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 		<script src="scripts/jquery.instagram.js"></script>
-		<script src="scripts/jquery.nmTwitter.js"></script>
 		<script src="webfonts/ss-social.js"></script>
 		
 		<script type="text/javascript">
@@ -32,38 +31,36 @@
 				$("#instagram").instagram({
 		      		userId: '329068',
 					accessToken: '329068.ab103e5.085feb5f83044e77b63d4db1517614c7', 
-					show: '10'
+					show: '20'
 	  			});
-	
-	  			nmTwitter.run({
-					user: 'nmattisson',
-					date_format: 'MM d',
-					html_format:'<tr><td><div class="tweet_date"><a href="{tweet_url}">{tweet_date}</a></div></td><td><div class="tweet_text">{tweet_text}</div></td></tr>',
-					num_tweets: 10,
-					div: '#twitter'
-				});
 			});
 		</script>
 	</head>
 	<body>
-		<div id="sidebar">
-			<h1>nmattisson</h1>
-			<p class="bio">We shall not cease from exploration<br>
-			And the end of all our exploring<br>
-			Will be to arrive where we started<br>
-			And know the place for the first time.</p>
-			<a class="ss-icon ss-social-circle" href="http://twitter.com/nmattisson">twitter</a>
-			<a class="ss-icon ss-social-circle" href="mailto:&#109;&#101;&#064;&#110;&#109;&#097;&#116;&#116;&#105;&#115;&#115;&#111;&#110;&#046;&#099;&#111;&#109;">email</a>
-			<a class="ss-icon ss-social-circle" href="http://flickr.com/nmattisson">flickr</a>
-			<a class="ss-icon ss-social-circle" href="http://facebook.com/nmattisson">facebook</a>
-			<a class="ss-icon ss-social-circle" href="http://github.com/nmattisson">octocat</a>
-			<p class="footer">Personal website of Nils Mattisson.</p>
-		</div>
 		<div id="content">
-			<h2>twitter</h2>
-			<div id="twitter"></div>
-			<h2>instagram</h2>
+			<div id="bio">
+				<h1>nmattisson</h1>
+				<p>
+					We shall not cease from exploration<br>
+					And the end of all our exploring<br>
+					Will be to arrive where we started<br>
+					And know the place for the first time.
+				</p>
+				<p>
+					<a class="ss-icon ss-social-circle" href="http://twitter.com/nmattisson">twitter</a>
+					<a class="ss-icon ss-social-circle" href="mailto:&#109;&#101;&#064;&#110;&#109;&#097;&#116;&#116;&#105;&#115;&#115;&#111;&#110;&#046;&#099;&#111;&#109;">email</a>
+					<a class="ss-icon ss-social-circle" href="http://flickr.com/nmattisson">flickr</a>
+					<a class="ss-icon ss-social-circle" href="http://facebook.com/nmattisson">facebook</a>
+					<a class="ss-icon ss-social-circle" href="http://github.com/nmattisson">octocat</a>
+				</p>
+			</div>
+
+			
 			<div id="instagram"></div>
+
+			<div id="footer">
+				<p>Personal website of Nils Mattisson.</p>
+			</div>
 		</div>
 	</body>
 </html>
