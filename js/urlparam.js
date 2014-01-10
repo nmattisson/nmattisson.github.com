@@ -1,0 +1,1 @@
+var urlParam=function(a,r){r=r||window;var n=new RegExp("[&|?]"+a+"=([^&#]+)"),c=r.location.search.match(n);return c?c[1]:""};
